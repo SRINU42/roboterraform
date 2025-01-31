@@ -1,5 +1,5 @@
 module "test" {
     source = "git::https://github.com/SRINU42/app-tfmodule.git"
-    env = "dev"
+    env = var.env
 
 }
