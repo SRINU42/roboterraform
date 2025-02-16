@@ -36,3 +36,11 @@ component = {
         tags = { env = "dev"}
     } 
  } 
+
+tags = {
+    company_name  = "xyz Tech"
+    Business      = "Ecommerce"
+    Business_unit = "Retail"
+    Cost_center   = "322" 
+    Project_name  = "Roboshop"  
+}

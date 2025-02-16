@@ -3,5 +3,5 @@ module "instance" {
     source      = "git::https://github.com/SRINU42/app-tfmodule.git"
     component   = each.key
     env         = var.env
-    tags        = each.value["tags"]
+    tags        = merge(each.value["tags"], var.tags)
 }
